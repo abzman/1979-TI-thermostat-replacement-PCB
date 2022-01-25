@@ -1,0 +1,1984 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Evan\Desktop\TI thermostat esp32\TI thermostat esp32.kicad_sch</source>
+    <date>1/24/2022 5:19:39 PM</date>
+    <tool>Eeschema (6.0.0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>TI thermostat esp32.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="B1">
+      <value>PinHeader_1x01_P2.54mm_Vertical</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b55da81f-ff38-4e30-9f31-f11eba795870</tstamps>
+    </comp>
+    <comp ref="B2">
+      <value>PinHeader_1x01_P2.54mm_Vertical</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8630b84c-977d-46f6-b361-9f09f17539a8</tstamps>
+    </comp>
+    <comp ref="B3">
+      <value>PinHeader_1x01_P2.54mm_Vertical</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>663c97a3-e325-40b0-b958-69e3a96d96b2</tstamps>
+    </comp>
+    <comp ref="B4">
+      <value>PinHeader_1x01_P2.54mm_Vertical</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d5a09c27-1475-4d91-8039-7a48cefd4baa</tstamps>
+    </comp>
+    <comp ref="B5">
+      <value>PinHeader_1x01_P2.54mm_Vertical</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d6882960-865e-42be-943f-65ce269b388a</tstamps>
+    </comp>
+    <comp ref="B6">
+      <value>PinHeader_1x01_P2.54mm_Vertical</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>40a0f9df-36b7-4817-8238-86f8963ba6a1</tstamps>
+    </comp>
+    <comp ref="B7">
+      <value>PinHeader_1x01_P2.54mm_Vertical</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f3813d1a-8c2f-44aa-95cd-3a733853e87f</tstamps>
+    </comp>
+    <comp ref="B8">
+      <value>PinHeader_1x01_P2.54mm_Vertical</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9916054f-e786-4442-9175-bcc536ca91cb</tstamps>
+    </comp>
+    <comp ref="B9">
+      <value>PinHeader_1x01_P2.54mm_Vertical</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6af1585d-d55f-40b9-b88a-455699c2d754</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3a5e469d-f9ba-43bb-9d07-ec6f9e9b30a5</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3ac5bc99-a9cf-4f81-b16c-7000aa536d6e</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>363a3eba-2022-48bc-9ce6-db88fe2f31d9</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>22uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9f7324c5-50a2-442c-8a80-edf04aa2b2ac</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f7466445-a2f8-4d2f-94d5-f3b94b6b0ad2</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>1nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b2ecb88a-4c09-46d5-b24a-de38dbb48f75</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8f38d61d-85a4-4a20-aa88-865d9c66b0b4</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e32da30-1a3e-4135-adaf-bbf389b0c3fc</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b9a4b22-a241-4855-9d5c-4ff2f9005b1b</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ba0492ee-9c58-4ac3-ad24-697283f6adfe</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>1000uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D7.5mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>769d35fa-7a75-4aa4-96b2-8fb04f9be6b1</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>0.01uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7cba9eb5-562e-4936-9f84-041ac06a7a6c</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>470uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D7.5mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>198e2729-1023-4034-93b5-d3802878e1e2</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>heat</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c0795c28-b89e-4b80-99e2-41ac49edb0bd</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>cool</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c76d78c9-4d35-468f-886b-5c71d47e69cf</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>fan</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7084f5bd-18f9-4ff6-9b62-42eb7768afa9</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>humid</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3ba28a1-8a59-4832-bb35-3fdbf5ddac90</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>RED LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5fa23453-de94-4f47-ab66-80326a468ae1</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>1N4004</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4004" description="400V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>58ab73ca-b7fc-4815-94be-3172e4a2ce6a</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>1N4004</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4004" description="400V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f501e8ab-6fff-45df-8836-ec32b2001417</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>1N4004</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4004" description="400V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a14c2522-7149-48be-b0a3-48a95b468c34</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>1N4004</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4004" description="400V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cf55831e-fab7-48d2-b2e7-edfa916dc974</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>MBR745</value>
+      <footprint>Package_TO_SOT_THT:TO-220-2_Horizontal_TabUp</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MBR735-D.PDF</datasheet>
+      <libsource lib="Diode" part="MBR745" description="45V 7.5A Schottky Barrier Rectifier Diode, TO-220"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>02e93c7d-b614-4cd7-b87c-4b8ed30e5e32</tstamps>
+    </comp>
+    <comp ref="DS1">
+      <value>PinHeader_1x15_P2.54mm_Vertical</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x15" description="Generic connector, single row, 01x15, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8e25278b-e45e-44f5-a2ba-dc072cdfc665</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>ESP32-WROVER-E_M213EH6464PH3Q0_</value>
+      <footprint>Evan's misc parts:ESP32WROVEREM213EH6464PH3Q0</footprint>
+      <fields>
+        <field name="Description">WiFi Modules (802.11) SMD Module ESP32-WROVER-E, ESP32-D0WD-V3, 3.3V 64Mbit PSRAM, 8 MB SPI flash, PCB Antenna</field>
+        <field name="Height">3.45</field>
+        <field name="Manufacturer_Name">Espressif Systems</field>
+        <field name="Manufacturer_Part_Number">ESP32-WROVER-E(M213EH6464PH3Q0)</field>
+        <field name="Mouser Part Number">356-ESP32WRVE26464PC</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Espressif-Systems/ESP32-WROVER-EM213EH6464PH3Q0?qs=vmHwEFxEFR9zVOJutwAM6w%3D%3D</field>
+      </fields>
+      <libsource lib="mouser" part="ESP32-WROVER-E_M213EH6464PH3Q0_" description="WiFi Modules (802.11) SMD Module ESP32-WROVER-E, ESP32-D0WD-V3, 3.3V 64Mbit PSRAM, 8 MB SPI flash, PCB Antenna"/>
+      <property name="Description" value="WiFi Modules (802.11) SMD Module ESP32-WROVER-E, ESP32-D0WD-V3, 3.3V 64Mbit PSRAM, 8 MB SPI flash, PCB Antenna"/>
+      <property name="Height" value="3.45"/>
+      <property name="Mouser Part Number" value="356-ESP32WRVE26464PC"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Espressif-Systems/ESP32-WROVER-EM213EH6464PH3Q0?qs=vmHwEFxEFR9zVOJutwAM6w%3D%3D"/>
+      <property name="Manufacturer_Name" value="Espressif Systems"/>
+      <property name="Manufacturer_Part_Number" value="ESP32-WROVER-E(M213EH6464PH3Q0)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8c5a6fce-194d-4416-8856-cb66ff818319</tstamps>
+    </comp>
+    <comp ref="IC2">
+      <value>LT1074CT</value>
+      <footprint>Evan's misc parts:TO220_5L</footprint>
+      <libsource lib="Evan's misc parts" part="LT1074CT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>faae9253-0968-44ca-b4b3-c525fc59bc6c</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>bme280</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5486aa65-8e91-4b0c-8c9f-bb45dec40e0a</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_02x05_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c221eefe-1cf5-48d5-b941-f08de75c2fe3</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_02x03_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x03_Odd_Even" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>71c1b4b1-fe29-4ef4-89f5-de4386e105a9</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x08</value>
+      <footprint>Connector_Phoenix_MC:PhoenixContact_MC_1,5_8-G-3.81_1x08_P3.81mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a0e9af3a-b08a-4cff-938f-b50258b1a231</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>MSS1278H-473KED</value>
+      <footprint>Evan's misc parts:INDPM120120X805N</footprint>
+      <datasheet>https://www.coilcraft.com/getmedia/72ffd561-3941-457d-b0e7-bb55b1b2d1a7/MSS1278H.pdf</datasheet>
+      <fields>
+        <field name="Description">Fixed Inductors 47uH Shld 3.2A 10% DCR=57mOhms AEC-Q200</field>
+        <field name="Height">8.05</field>
+        <field name="Manufacturer_Name">COILCRAFT</field>
+        <field name="Manufacturer_Part_Number">MSS1278H-473KED</field>
+        <field name="Mouser Part Number">994-MSS1278H-473KED</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Coilcraft/MSS1278H-473KED?qs=KUoIvG%2F9IlZWGwb55pbQsQ%3D%3D</field>
+      </fields>
+      <libsource lib="mouser" part="MSS1278H-473KED" description="Fixed Inductors 47uH Shld 3.2A 10% DCR=57mOhms AEC-Q200"/>
+      <property name="Description" value="Fixed Inductors 47uH Shld 3.2A 10% DCR=57mOhms AEC-Q200"/>
+      <property name="Height" value="8.05"/>
+      <property name="Mouser Part Number" value="994-MSS1278H-473KED"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Coilcraft/MSS1278H-473KED?qs=KUoIvG%2F9IlZWGwb55pbQsQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="COILCRAFT"/>
+      <property name="Manufacturer_Part_Number" value="MSS1278H-473KED"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>45a2e062-dad0-4b0f-945f-e614bc61ee1e</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>BT134-600</value>
+      <footprint>Package_TO_SOT_THT:TO-126-3_Horizontal_TabDown</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/302/BT134_SERIES_1-79951.pdf</datasheet>
+      <libsource lib="Evan's misc parts" part="BT134-600" description="4A RMS, 600V Off-State Voltage, Triac, TO-126"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>68151cee-0909-41b4-b240-4275b1e97a8a</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>BT134-600</value>
+      <footprint>Package_TO_SOT_THT:TO-126-3_Horizontal_TabDown</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/302/BT134_SERIES_1-79951.pdf</datasheet>
+      <libsource lib="Evan's misc parts" part="BT134-600" description="4A RMS, 600V Off-State Voltage, Triac, TO-126"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8b77531e-c664-4a33-a260-0a774c1000a6</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>BT134-600</value>
+      <footprint>Package_TO_SOT_THT:TO-126-3_Horizontal_TabDown</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/302/BT134_SERIES_1-79951.pdf</datasheet>
+      <libsource lib="Evan's misc parts" part="BT134-600" description="4A RMS, 600V Off-State Voltage, Triac, TO-126"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2b0c2ff9-b33f-4788-a1bc-687c9175e7e7</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>BT134-600</value>
+      <footprint>Package_TO_SOT_THT:TO-126-3_Horizontal_TabDown</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/302/BT134_SERIES_1-79951.pdf</datasheet>
+      <libsource lib="Evan's misc parts" part="BT134-600" description="4A RMS, 600V Off-State Voltage, Triac, TO-126"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>94a9b5a8-5c30-412d-b556-dce2f637f7fd</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5511c181-5698-4a7d-b7f0-9a463bcc7d72</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>55f7c1eb-d87f-4506-91e4-1fafb2f6180f</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b0720888-9b0a-494b-b5ed-b5bb634e1032</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6ce7d3fe-c828-488a-9681-239c13a1bcc3</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7b702a1d-fe94-404f-b362-89f87f8da096</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>809ee441-105e-43f6-af85-21619c3ce183</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e973c23f-4566-4983-a072-7528850b5b63</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5eef73f4-d9b3-460b-92d6-91db04d5c8e2</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>12K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f383d9c1-e2ef-4b3a-8aed-5ed20a435999</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1491f91e-e3f4-4c76-a0d5-857cb26475d4</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6fc54724-f310-4aa0-a342-773df604ddc9</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e8a989aa-3819-4494-afd3-f952253e4126</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3542d703-e6dc-411a-b723-d1fe09fbcc8a</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>4.7K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>43cc948b-7aa9-4530-a448-911bd0e35fae</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>2.2K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>61b6f2c4-b226-47d6-bbd8-9d67fcaf35c3</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6ef5f8e0-5c2d-4349-9162-179c7c438d89</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e5e03502-ed28-4743-9af6-23bafe8e639e</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2d0a1cd4-a5be-46cc-a28f-17278e9b94e9</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fc56b098-c3aa-474b-aac9-da58d4f42386</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>4.7K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5417d93e-ea72-4615-a825-50b48895bd92</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>2.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>63b78d21-0bda-466d-9e7a-26907ef523a8</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>2.8k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8234d5be-5e6a-459a-b94f-58a572f83d20</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>2.21k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>58a28026-2b87-4747-a338-804ba2418006</tstamps>
+    </comp>
+    <comp ref="S1">
+      <value>TI Thermostat S1</value>
+      <footprint>Evan's misc parts:TI Thermostat S1</footprint>
+      <fields>
+        <field name="Comment">Thermostat S1</field>
+      </fields>
+      <libsource lib="Evan's misc parts" part="Thermostat S1" description=""/>
+      <property name="Comment" value="Thermostat S1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>24bb835b-5a44-4797-a754-f3c7f98a784b</tstamps>
+    </comp>
+    <comp ref="S2">
+      <value>TI Thermostat S2-3-4</value>
+      <footprint>Evan's misc parts:TI Thermostat S2-3-4</footprint>
+      <fields>
+        <field name="Comment">1825163-2</field>
+        <field name="EU_RoHS_Compliance">Compliant</field>
+      </fields>
+      <libsource lib="Evan's misc parts" part="Thermostat S2-3-4" description=""/>
+      <property name="Comment" value="1825163-2"/>
+      <property name="EU_RoHS_Compliance" value="Compliant"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dc542a74-3cf6-4d42-8438-45e8782471ea</tstamps>
+    </comp>
+    <comp ref="S3">
+      <value>TI Thermostat S2-3-4</value>
+      <footprint>Evan's misc parts:TI Thermostat S2-3-4</footprint>
+      <fields>
+        <field name="Comment">1825163-2</field>
+        <field name="EU_RoHS_Compliance">Compliant</field>
+      </fields>
+      <libsource lib="Evan's misc parts" part="Thermostat S2-3-4" description=""/>
+      <property name="Comment" value="1825163-2"/>
+      <property name="EU_RoHS_Compliance" value="Compliant"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e6b2cc6a-89a9-4005-82f7-65741cef7903</tstamps>
+    </comp>
+    <comp ref="S4">
+      <value>TI Thermostat S2-3-4</value>
+      <footprint>Evan's misc parts:TI Thermostat S2-3-4</footprint>
+      <fields>
+        <field name="Comment">1825163-2</field>
+        <field name="EU_RoHS_Compliance">Compliant</field>
+      </fields>
+      <libsource lib="Evan's misc parts" part="Thermostat S2-3-4" description=""/>
+      <property name="Comment" value="1825163-2"/>
+      <property name="EU_RoHS_Compliance" value="Compliant"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e51cd7d-dce9-4bbf-b1e2-8712a52ce40d</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx39-2LFS</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>01767289-1157-4cec-99c2-ec58db9473c5</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>MOC3063M</value>
+      <footprint>Package_DIP:DIP-6_W7.62mm</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/MOC3163M-D.pdf</datasheet>
+      <libsource lib="Relay_SolidState" part="MOC3063M" description="Zero Cross Opto-Triac, Vdrm 600V, Ift 5mA, DIP6"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>79b0c556-17f7-4098-91c5-0a661d90c160</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>MOC3063M</value>
+      <footprint>Package_DIP:DIP-6_W7.62mm</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/MOC3163M-D.pdf</datasheet>
+      <libsource lib="Relay_SolidState" part="MOC3063M" description="Zero Cross Opto-Triac, Vdrm 600V, Ift 5mA, DIP6"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36fd1d08-b9bd-4bc9-9e4e-2d25c03c60ce</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>MOC3063M</value>
+      <footprint>Package_DIP:DIP-6_W7.62mm</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/MOC3163M-D.pdf</datasheet>
+      <libsource lib="Relay_SolidState" part="MOC3063M" description="Zero Cross Opto-Triac, Vdrm 600V, Ift 5mA, DIP6"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9c7da070-a460-4fb7-afdb-0c67e9c3176a</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>MOC3063M</value>
+      <footprint>Package_DIP:DIP-6_W7.62mm</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/MOC3163M-D.pdf</datasheet>
+      <libsource lib="Relay_SolidState" part="MOC3063M" description="Zero Cross Opto-Triac, Vdrm 600V, Ift 5mA, DIP6"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e56852a8-1057-41d8-8a42-88fe6f00ba3c</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>74HC00</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74hc00</datasheet>
+      <libsource lib="74xx" part="74HC00" description="quad 2-input NAND gate"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dcd9fd0e-a879-4f17-acda-61380417a7d0 d4aaa840-2c8e-4306-930a-6365cca51fef b2ec72a8-2722-42c6-afdf-ca538094fe61 44d9a9df-eb14-44c7-96bf-8e9c8cd80bf2 405fb5e4-83aa-4505-850c-2a9ddfd48be5</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>MAX7219</value>
+      <footprint>Package_SO:SOP-24_7.5x15.4mm_P1.27mm</footprint>
+      <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX7219-MAX7221.pdf</datasheet>
+      <libsource lib="Driver_LED" part="MAX7219" description="8-Digit LED Display Driver"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6a0118d2-2a6a-425c-bb00-0318a0dc1638</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>74HC00</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74hc00</datasheet>
+      <libsource lib="74xx" part="74HC00" description="quad 2-input NAND gate"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf792535-d43c-4b07-a996-af9ea30bb717 ab1f2cc2-11f2-4f98-9d22-35a2ffe5e4f6 3b257b07-53ff-4c0f-a424-a9a55741cae7 e9da3f95-b3a4-4732-9ebe-3004cd2c2e5e 22f39080-c66c-454e-8062-e9b34835c3e6</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>LD1117S33TR_SOT223</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="LD1117S33TR_SOT223" description="800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT-223"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>752fa345-d8be-4e99-aad1-e88671f99643</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>74HC138</value>
+      <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LS138</datasheet>
+      <libsource lib="74xx" part="74LS138" description="Decoder 3 to 8 active low outputs"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TI thermostat esp32.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>860674d3-4a4a-44d3-a2bd-87ad1181a43d</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xx" part="74HC00">
+      <description>quad 2-input NAND gate</description>
+      <docs>http://www.ti.com/lit/gpn/sn74hc00</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SO14*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HC00</field>
+        <field name="Datasheet">http://www.ti.com/lit/gpn/sn74hc00</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="" type="output"/>
+        <pin num="4" name="" type="input"/>
+        <pin num="5" name="" type="input"/>
+        <pin num="6" name="" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="" type="output"/>
+        <pin num="9" name="" type="input"/>
+        <pin num="10" name="" type="input"/>
+        <pin num="11" name="" type="output"/>
+        <pin num="12" name="" type="input"/>
+        <pin num="13" name="" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="74xx" part="74LS138">
+      <description>Decoder 3 to 8 active low outputs</description>
+      <docs>http://www.ti.com/lit/gpn/sn74LS138</docs>
+      <footprints>
+        <fp>DIP?16*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS138</field>
+        <field name="Datasheet">http://www.ti.com/lit/gpn/sn74LS138</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A0" type="input"/>
+        <pin num="2" name="A1" type="input"/>
+        <pin num="3" name="A2" type="input"/>
+        <pin num="4" name="E1" type="input"/>
+        <pin num="5" name="E2" type="input"/>
+        <pin num="6" name="E3" type="input"/>
+        <pin num="7" name="O7" type="output"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="O6" type="output"/>
+        <pin num="10" name="O5" type="output"/>
+        <pin num="11" name="O4" type="output"/>
+        <pin num="12" name="O3" type="output"/>
+        <pin num="13" name="O2" type="output"/>
+        <pin num="14" name="O1" type="output"/>
+        <pin num="15" name="O0" type="output"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x01">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x08">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x15">
+      <description>Generic connector, single row, 01x15, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x15</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x03_Odd_Even">
+      <description>Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x03_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x05_Odd_Even">
+      <description>Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x05_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4004">
+      <description>400V 1A General Purpose Rectifier Diode, DO-41</description>
+      <docs>http://www.vishay.com/docs/88503/1n4001.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4004</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88503/1n4001.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="MBR745">
+      <description>45V 7.5A Schottky Barrier Rectifier Diode, TO-220</description>
+      <docs>http://www.onsemi.com/pub_link/Collateral/MBR735-D.PDF</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">MBR745</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-2_Vertical</field>
+        <field name="Datasheet">http://www.onsemi.com/pub_link/Collateral/MBR735-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Driver_LED" part="MAX7219">
+      <description>8-Digit LED Display Driver</description>
+      <docs>https://datasheets.maximintegrated.com/en/ds/MAX7219-MAX7221.pdf</docs>
+      <footprints>
+        <fp>SOIC*7.5x15.4mm*P1.27mm*</fp>
+        <fp>DIP*7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX7219</field>
+        <field name="Datasheet">https://datasheets.maximintegrated.com/en/ds/MAX7219-MAX7221.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DIN" type="input"/>
+        <pin num="2" name="DIG_0" type="output"/>
+        <pin num="3" name="DIG_4" type="output"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="DIG_6" type="output"/>
+        <pin num="6" name="DIG_2" type="output"/>
+        <pin num="7" name="DIG_3" type="output"/>
+        <pin num="8" name="DIG_7" type="output"/>
+        <pin num="9" name="GND" type="passive"/>
+        <pin num="10" name="DIG_5" type="output"/>
+        <pin num="11" name="DIG_1" type="output"/>
+        <pin num="12" name="LOAD" type="input"/>
+        <pin num="13" name="CLK" type="input"/>
+        <pin num="14" name="SEG_A" type="output"/>
+        <pin num="15" name="SEG_F" type="output"/>
+        <pin num="16" name="SEG_B" type="output"/>
+        <pin num="17" name="SEG_G" type="output"/>
+        <pin num="18" name="ISET" type="input"/>
+        <pin num="19" name="V+" type="power_in"/>
+        <pin num="20" name="SEG_C" type="output"/>
+        <pin num="21" name="SEG_E" type="output"/>
+        <pin num="22" name="SEG_DP" type="output"/>
+        <pin num="23" name="SEG_D" type="output"/>
+        <pin num="24" name="DOUT" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Evan's misc parts" part="BT134-600">
+      <description>4A RMS, 600V Off-State Voltage, Triac, TO-126</description>
+      <docs>https://www.mouser.com/datasheet/2/302/BT134_SERIES_1-79951.pdf</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BT134-600</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-126-3_Horizontal_TabDown</field>
+        <field name="Datasheet">https://www.mouser.com/datasheet/2/302/BT134_SERIES_1-79951.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+        <pin num="3" name="G" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Evan's misc parts" part="LT1074CT">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">LT1074CT</field>
+        <field name="Footprint">TO220_5L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="FB" type="input"/>
+        <pin num="2" name="VC" type="input"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="V_SW" type="output"/>
+        <pin num="5" name="V_IN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Evan's misc parts" part="Thermostat S1">
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">Thermostat S1</field>
+        <field name="Footprint">Evan's misc parts:TI Thermostat S1</field>
+        <field name="Comment">Thermostat S1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Evan's misc parts" part="Thermostat S2-3-4">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">Thermostat S2-3-4</field>
+        <field name="Footprint">SW_1825163-2</field>
+        <field name="Comment">1825163-2</field>
+        <field name="EU_RoHS_Compliance">Compliant</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LD1117S33TR_SOT223">
+      <description>800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT-223</description>
+      <docs>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf</docs>
+      <footprints>
+        <fp>SOT?223*TabPin2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LD1117S33TR_SOT223</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+        <field name="Datasheet">http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Relay_SolidState" part="MOC3063M">
+      <description>Zero Cross Opto-Triac, Vdrm 600V, Ift 5mA, DIP6</description>
+      <docs>https://www.onsemi.com/pub/Collateral/MOC3163M-D.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SMDIP*W9.53mm*</fp>
+        <fp>DIP*W10.16mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MOC3063M</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/MOC3163M-D.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="NC" type="no_connect"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="NC" type="no_connect"/>
+        <pin num="6" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mouser" part="ESP32-WROVER-E_M213EH6464PH3Q0_">
+      <description>WiFi Modules (802.11) SMD Module ESP32-WROVER-E, ESP32-D0WD-V3, 3.3V 64Mbit PSRAM, 8 MB SPI flash, PCB Antenna</description>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">ESP32-WROVER-E_M213EH6464PH3Q0_</field>
+        <field name="Footprint">ESP32WROVEREM213EH6464PH3Q0</field>
+        <field name="Description">WiFi Modules (802.11) SMD Module ESP32-WROVER-E, ESP32-D0WD-V3, 3.3V 64Mbit PSRAM, 8 MB SPI flash, PCB Antenna</field>
+        <field name="Height">3.45</field>
+        <field name="Mouser Part Number">356-ESP32WRVE26464PC</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Espressif-Systems/ESP32-WROVER-EM213EH6464PH3Q0?qs=vmHwEFxEFR9zVOJutwAM6w%3D%3D</field>
+        <field name="Manufacturer_Name">Espressif Systems</field>
+        <field name="Manufacturer_Part_Number">ESP32-WROVER-E(M213EH6464PH3Q0)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND_1" type="passive"/>
+        <pin num="2" name="3V3" type="passive"/>
+        <pin num="3" name="EN" type="passive"/>
+        <pin num="4" name="SENSOR_VP" type="passive"/>
+        <pin num="5" name="SENSOR_VN" type="passive"/>
+        <pin num="6" name="IO34" type="passive"/>
+        <pin num="7" name="IO35" type="passive"/>
+        <pin num="8" name="IO32" type="passive"/>
+        <pin num="9" name="IO33" type="passive"/>
+        <pin num="10" name="IO25" type="passive"/>
+        <pin num="11" name="IO26" type="passive"/>
+        <pin num="12" name="IO27" type="passive"/>
+        <pin num="13" name="IO14" type="passive"/>
+        <pin num="14" name="IO12" type="passive"/>
+        <pin num="15" name="GND_2" type="passive"/>
+        <pin num="16" name="IO13" type="passive"/>
+        <pin num="17" name="NC_1" type="passive"/>
+        <pin num="18" name="NC_2" type="passive"/>
+        <pin num="19" name="NC_3" type="passive"/>
+        <pin num="20" name="NC_4" type="passive"/>
+        <pin num="21" name="NC_5" type="passive"/>
+        <pin num="22" name="NC_6" type="passive"/>
+        <pin num="23" name="IO15" type="passive"/>
+        <pin num="24" name="IO2" type="passive"/>
+        <pin num="25" name="IO0" type="passive"/>
+        <pin num="26" name="IO4" type="passive"/>
+        <pin num="27" name="IO16" type="passive"/>
+        <pin num="28" name="IO17" type="passive"/>
+        <pin num="29" name="IO5" type="passive"/>
+        <pin num="30" name="IO18" type="passive"/>
+        <pin num="31" name="IO19" type="passive"/>
+        <pin num="32" name="NC_7" type="passive"/>
+        <pin num="33" name="IO21" type="passive"/>
+        <pin num="34" name="RXD0" type="passive"/>
+        <pin num="35" name="TXD0" type="passive"/>
+        <pin num="36" name="IO22" type="passive"/>
+        <pin num="37" name="IO23" type="passive"/>
+        <pin num="38" name="GND_3" type="passive"/>
+        <pin num="39" name="GND_4" type="passive"/>
+        <pin num="40" name="GND_5" type="passive"/>
+        <pin num="41" name="GND_6" type="passive"/>
+        <pin num="42" name="GND_7" type="passive"/>
+        <pin num="43" name="GND_8" type="passive"/>
+        <pin num="44" name="GND_9" type="passive"/>
+        <pin num="45" name="GND_10" type="passive"/>
+        <pin num="46" name="GND_11" type="passive"/>
+        <pin num="47" name="GND_12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mouser" part="MSS1278H-473KED">
+      <description>Fixed Inductors 47uH Shld 3.2A 10% DCR=57mOhms AEC-Q200</description>
+      <docs>https://www.coilcraft.com/getmedia/72ffd561-3941-457d-b0e7-bb55b1b2d1a7/MSS1278H.pdf</docs>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">MSS1278H-473KED</field>
+        <field name="Footprint">INDPM120120X805N</field>
+        <field name="Datasheet">https://www.coilcraft.com/getmedia/72ffd561-3941-457d-b0e7-bb55b1b2d1a7/MSS1278H.pdf</field>
+        <field name="Description">Fixed Inductors 47uH Shld 3.2A 10% DCR=57mOhms AEC-Q200</field>
+        <field name="Height">8.05</field>
+        <field name="Mouser Part Number">994-MSS1278H-473KED</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Coilcraft/MSS1278H-473KED?qs=KUoIvG%2F9IlZWGwb55pbQsQ%3D%3D</field>
+        <field name="Manufacturer_Name">COILCRAFT</field>
+        <field name="Manufacturer_Part_Number">MSS1278H-473KED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xx">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/74xx.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="Driver_LED">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Driver_LED.kicad_sym</uri>
+    </library>
+    <library logical="Evan's misc parts">
+      <uri>C:/Users/Evan/Documents/KiCad/6.0/symbols/Evan's misc parts.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Relay_SolidState">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Relay_SolidState.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+    <library logical="mouser">
+      <uri>C:/Users/Evan/Desktop/Evan's second kicad parts/SamacSys_Parts.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="2" pinfunction="3V3" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="S1" pin="1" pintype="passive"/>
+      <node ref="U5" pin="14" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U7" pin="14" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U8" pin="2" pinfunction="VO" pintype="power_out"/>
+      <node ref="U9" pin="16" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U9" pin="6" pinfunction="E3" pintype="input"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J6" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="L1" pin="2" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U6" pin="19" pinfunction="V+" pintype="power_in"/>
+      <node ref="U8" pin="3" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="3" name="+24V">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="IC2" pin="5" pinfunction="V_IN" pintype="input"/>
+    </net>
+    <net code="4" name="/A">
+      <node ref="DS1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U6" pin="14" pinfunction="SEG_A" pintype="output"/>
+    </net>
+    <net code="5" name="/B">
+      <node ref="DS1" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="U6" pin="16" pinfunction="SEG_B" pintype="output"/>
+    </net>
+    <net code="6" name="/C">
+      <node ref="DS1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U6" pin="20" pinfunction="SEG_C" pintype="output"/>
+    </net>
+    <net code="7" name="/Cool">
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="A1" pintype="passive"/>
+    </net>
+    <net code="8" name="/D">
+      <node ref="DS1" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="U6" pin="23" pinfunction="SEG_D" pintype="output"/>
+    </net>
+    <net code="9" name="/D1">
+      <node ref="DS1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U6" pin="2" pinfunction="DIG_0" pintype="output"/>
+    </net>
+    <net code="10" name="/D2">
+      <node ref="DS1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U6" pin="11" pinfunction="DIG_1" pintype="output"/>
+    </net>
+    <net code="11" name="/D3">
+      <node ref="DS1" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="U6" pin="6" pinfunction="DIG_2" pintype="output"/>
+    </net>
+    <net code="12" name="/D4">
+      <node ref="DS1" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="U6" pin="7" pinfunction="DIG_3" pintype="output"/>
+    </net>
+    <net code="13" name="/D5">
+      <node ref="DS1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U6" pin="3" pinfunction="DIG_4" pintype="output"/>
+    </net>
+    <net code="14" name="/D6">
+      <node ref="DS1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U6" pin="10" pinfunction="DIG_5" pintype="output"/>
+    </net>
+    <net code="15" name="/D7">
+      <node ref="DS1" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="U6" pin="5" pinfunction="DIG_6" pintype="output"/>
+    </net>
+    <net code="16" name="/D8">
+      <node ref="U6" pin="8" pinfunction="DIG_7" pintype="output"/>
+    </net>
+    <net code="17" name="/DP">
+      <node ref="DS1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U6" pin="22" pinfunction="SEG_DP" pintype="output"/>
+    </net>
+    <net code="18" name="/E">
+      <node ref="DS1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U6" pin="21" pinfunction="SEG_E" pintype="output"/>
+    </net>
+    <net code="19" name="/ESP_EN">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="IC1" pin="3" pinfunction="EN" pintype="passive"/>
+      <node ref="J4" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="20" name="/ESP_IO0">
+      <node ref="IC1" pin="25" pinfunction="IO0" pintype="passive"/>
+      <node ref="J5" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+    </net>
+    <net code="21" name="/ESP_IO1">
+      <node ref="IC1" pin="35" pinfunction="TXD0" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="22" name="/ESP_IO2">
+      <node ref="IC1" pin="24" pinfunction="IO2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="U5" pin="10" pintype="input"/>
+      <node ref="U5" pin="9" pintype="input"/>
+    </net>
+    <net code="23" name="/ESP_IO3">
+      <node ref="IC1" pin="34" pinfunction="RXD0" pintype="passive"/>
+      <node ref="J5" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="24" name="/ESP_IO4">
+      <node ref="IC1" pin="26" pinfunction="IO4" pintype="passive"/>
+      <node ref="U5" pin="2" pintype="input"/>
+      <node ref="U5" pin="5" pintype="input"/>
+      <node ref="U7" pin="2" pintype="input"/>
+      <node ref="U7" pin="5" pintype="input"/>
+    </net>
+    <net code="25" name="/ESP_IO5">
+      <node ref="IC1" pin="29" pinfunction="IO5" pintype="passive"/>
+      <node ref="U6" pin="12" pinfunction="LOAD" pintype="input"/>
+    </net>
+    <net code="26" name="/ESP_IO12">
+      <node ref="IC1" pin="14" pinfunction="IO12" pintype="passive"/>
+      <node ref="J4" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="27" name="/ESP_IO13">
+      <node ref="IC1" pin="16" pinfunction="IO13" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+    </net>
+    <net code="28" name="/ESP_IO14">
+      <node ref="IC1" pin="13" pinfunction="IO14" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+    </net>
+    <net code="29" name="/ESP_IO15">
+      <node ref="IC1" pin="23" pinfunction="IO15" pintype="passive"/>
+      <node ref="J4" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+    </net>
+    <net code="30" name="/ESP_IO16">
+      <node ref="IC1" pin="27" pinfunction="IO16" pintype="passive"/>
+      <node ref="U5" pin="12" pintype="input"/>
+      <node ref="U5" pin="13" pintype="input"/>
+    </net>
+    <net code="31" name="/ESP_IO17">
+      <node ref="IC1" pin="28" pinfunction="IO17" pintype="passive"/>
+      <node ref="U7" pin="12" pintype="input"/>
+      <node ref="U7" pin="13" pintype="input"/>
+    </net>
+    <net code="32" name="/ESP_IO18">
+      <node ref="IC1" pin="30" pinfunction="IO18" pintype="passive"/>
+      <node ref="U6" pin="13" pinfunction="CLK" pintype="input"/>
+    </net>
+    <net code="33" name="/ESP_IO19">
+      <node ref="IC1" pin="31" pinfunction="IO19" pintype="passive"/>
+    </net>
+    <net code="34" name="/ESP_IO21">
+      <node ref="IC1" pin="33" pinfunction="IO21" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="35" name="/ESP_IO22">
+      <node ref="IC1" pin="36" pinfunction="IO22" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="36" name="/ESP_IO23">
+      <node ref="IC1" pin="37" pinfunction="IO23" pintype="passive"/>
+      <node ref="U6" pin="1" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="37" name="/ESP_IO25">
+      <node ref="IC1" pin="10" pinfunction="IO25" pintype="passive"/>
+      <node ref="U9" pin="1" pinfunction="A0" pintype="input"/>
+    </net>
+    <net code="38" name="/ESP_IO26">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="11" pinfunction="IO26" pintype="passive"/>
+      <node ref="S1" pin="2" pintype="passive"/>
+    </net>
+    <net code="39" name="/ESP_IO27">
+      <node ref="IC1" pin="12" pinfunction="IO27" pintype="passive"/>
+    </net>
+    <net code="40" name="/ESP_IO32">
+      <node ref="IC1" pin="8" pinfunction="IO32" pintype="passive"/>
+      <node ref="U9" pin="3" pinfunction="A2" pintype="input"/>
+    </net>
+    <net code="41" name="/ESP_IO33">
+      <node ref="IC1" pin="9" pinfunction="IO33" pintype="passive"/>
+      <node ref="U9" pin="2" pinfunction="A1" pintype="input"/>
+    </net>
+    <net code="42" name="/ESP_IO34">
+      <node ref="B4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="IC1" pin="6" pinfunction="IO34" pintype="passive"/>
+      <node ref="S3" pin="2" pintype="passive"/>
+    </net>
+    <net code="43" name="/ESP_IO35">
+      <node ref="B2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="IC1" pin="7" pinfunction="IO35" pintype="passive"/>
+      <node ref="S3" pin="4" pintype="passive"/>
+    </net>
+    <net code="44" name="/ESP_IO36">
+      <node ref="B8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="IC1" pin="4" pinfunction="SENSOR_VP" pintype="passive"/>
+      <node ref="S4" pin="2" pintype="passive"/>
+    </net>
+    <net code="45" name="/ESP_IO39">
+      <node ref="B6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="IC1" pin="5" pinfunction="SENSOR_VN" pintype="passive"/>
+      <node ref="S4" pin="4" pintype="passive"/>
+    </net>
+    <net code="46" name="/F">
+      <node ref="DS1" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="U6" pin="15" pinfunction="SEG_F" pintype="output"/>
+    </net>
+    <net code="47" name="/Fan">
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="A1" pintype="passive"/>
+    </net>
+    <net code="48" name="/G">
+      <node ref="DS1" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="U6" pin="17" pinfunction="SEG_G" pintype="output"/>
+    </net>
+    <net code="49" name="/Heat">
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="A1" pintype="passive"/>
+    </net>
+    <net code="50" name="/Hot">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J6" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="51" name="/Humid">
+      <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="Q4" pin="1" pinfunction="A1" pintype="passive"/>
+    </net>
+    <net code="52" name="/common">
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J6" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="53" name="/switchScan">
+      <node ref="S3" pin="3" pintype="passive"/>
+      <node ref="S4" pin="3" pintype="passive"/>
+      <node ref="U9" pin="7" pinfunction="O7" pintype="output"/>
+    </net>
+    <net code="54" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="IC1" pin="1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="IC1" pin="15" pinfunction="GND_2" pintype="passive"/>
+      <node ref="IC1" pin="38" pinfunction="GND_3" pintype="passive"/>
+      <node ref="IC1" pin="39" pinfunction="GND_4" pintype="passive"/>
+      <node ref="IC1" pin="40" pinfunction="GND_5" pintype="passive"/>
+      <node ref="IC1" pin="41" pinfunction="GND_6" pintype="passive"/>
+      <node ref="IC1" pin="42" pinfunction="GND_7" pintype="passive"/>
+      <node ref="IC1" pin="43" pinfunction="GND_8" pintype="passive"/>
+      <node ref="IC1" pin="44" pinfunction="GND_9" pintype="passive"/>
+      <node ref="IC1" pin="45" pinfunction="GND_10" pintype="passive"/>
+      <node ref="IC1" pin="46" pinfunction="GND_11" pintype="passive"/>
+      <node ref="IC1" pin="47" pinfunction="GND_12" pintype="passive"/>
+      <node ref="IC2" pin="3" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J4" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J4" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J4" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J6" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="S1" pin="3" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="9" pinfunction="GND" pintype="passive"/>
+      <node ref="U7" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U8" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="4" pinfunction="E1" pintype="input"/>
+      <node ref="U9" pin="5" pinfunction="E2" pintype="input"/>
+      <node ref="U9" pin="8" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="55" name="Net-(B1-Pad1)">
+      <node ref="B1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U9" pin="11" pinfunction="O4" pintype="output"/>
+    </net>
+    <net code="56" name="Net-(B3-Pad1)">
+      <node ref="B3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U9" pin="12" pinfunction="O3" pintype="output"/>
+    </net>
+    <net code="57" name="Net-(B5-Pad1)">
+      <node ref="B5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U9" pin="13" pinfunction="O2" pintype="output"/>
+    </net>
+    <net code="58" name="Net-(B7-Pad1)">
+      <node ref="B7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U9" pin="14" pinfunction="O1" pintype="output"/>
+    </net>
+    <net code="59" name="Net-(B9-Pad1)">
+      <node ref="B9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U9" pin="15" pinfunction="O0" pintype="output"/>
+    </net>
+    <net code="60" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U6" pin="18" pinfunction="ISET" pintype="input"/>
+    </net>
+    <net code="61" name="Net-(C17-Pad1)">
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="2" pintype="passive"/>
+      <node ref="U7" pin="3" pintype="output"/>
+    </net>
+    <net code="63" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="64" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="2" pintype="passive"/>
+      <node ref="U7" pin="6" pintype="output"/>
+    </net>
+    <net code="65" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="66" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U3" pin="2" pintype="passive"/>
+      <node ref="U5" pin="3" pintype="output"/>
+    </net>
+    <net code="67" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="68" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U4" pin="2" pintype="passive"/>
+      <node ref="U5" pin="6" pintype="output"/>
+    </net>
+    <net code="69" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+    </net>
+    <net code="70" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+    </net>
+    <net code="71" name="Net-(D10-Pad1)">
+      <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="IC2" pin="4" pinfunction="V_SW" pintype="output"/>
+      <node ref="L1" pin="1" pintype="passive"/>
+    </net>
+    <net code="72" name="Net-(IC2-Pad1)">
+      <node ref="IC2" pin="1" pinfunction="FB" pintype="input"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+    </net>
+    <net code="73" name="Net-(IC2-Pad2)">
+      <node ref="IC2" pin="2" pinfunction="VC" pintype="input"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+    </net>
+    <net code="74" name="Net-(Q1-Pad3)">
+      <node ref="Q1" pin="3" pinfunction="G" pintype="input"/>
+      <node ref="U1" pin="4" pintype="passive"/>
+    </net>
+    <net code="75" name="Net-(Q2-Pad3)">
+      <node ref="Q2" pin="3" pinfunction="G" pintype="input"/>
+      <node ref="U2" pin="4" pintype="passive"/>
+    </net>
+    <net code="76" name="Net-(Q3-Pad3)">
+      <node ref="Q3" pin="3" pinfunction="G" pintype="input"/>
+      <node ref="U3" pin="4" pintype="passive"/>
+    </net>
+    <net code="77" name="Net-(Q4-Pad3)">
+      <node ref="Q4" pin="3" pinfunction="G" pintype="input"/>
+      <node ref="U4" pin="4" pintype="passive"/>
+    </net>
+    <net code="78" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pintype="passive"/>
+    </net>
+    <net code="79" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pintype="passive"/>
+    </net>
+    <net code="80" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U2" pin="6" pintype="passive"/>
+    </net>
+    <net code="81" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U2" pin="1" pintype="passive"/>
+    </net>
+    <net code="82" name="Net-(R5-Pad1)">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U3" pin="6" pintype="passive"/>
+    </net>
+    <net code="83" name="Net-(R6-Pad2)">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U3" pin="1" pintype="passive"/>
+    </net>
+    <net code="84" name="Net-(R7-Pad1)">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U4" pin="6" pintype="passive"/>
+    </net>
+    <net code="85" name="Net-(R8-Pad2)">
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U4" pin="1" pintype="passive"/>
+    </net>
+    <net code="86" name="Net-(U5-Pad1)">
+      <node ref="U5" pin="1" pintype="input"/>
+      <node ref="U5" pin="8" pintype="output"/>
+    </net>
+    <net code="87" name="Net-(U5-Pad11)">
+      <node ref="U5" pin="11" pintype="output"/>
+      <node ref="U5" pin="4" pintype="input"/>
+    </net>
+    <net code="88" name="Net-(U7-Pad1)">
+      <node ref="U7" pin="1" pintype="input"/>
+      <node ref="U7" pin="8" pintype="output"/>
+    </net>
+    <net code="89" name="Net-(U7-Pad10)">
+      <node ref="U7" pin="10" pintype="input"/>
+      <node ref="U7" pin="11" pintype="output"/>
+      <node ref="U7" pin="4" pintype="input"/>
+      <node ref="U7" pin="9" pintype="input"/>
+    </net>
+    <net code="90" name="unconnected-(IC1-Pad17)">
+      <node ref="IC1" pin="17" pinfunction="NC_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(IC1-Pad18)">
+      <node ref="IC1" pin="18" pinfunction="NC_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(IC1-Pad19)">
+      <node ref="IC1" pin="19" pinfunction="NC_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(IC1-Pad20)">
+      <node ref="IC1" pin="20" pinfunction="NC_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="94" name="unconnected-(IC1-Pad21)">
+      <node ref="IC1" pin="21" pinfunction="NC_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="95" name="unconnected-(IC1-Pad22)">
+      <node ref="IC1" pin="22" pinfunction="NC_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="96" name="unconnected-(IC1-Pad32)">
+      <node ref="IC1" pin="32" pinfunction="NC_7" pintype="passive+no_connect"/>
+    </net>
+    <net code="97" name="unconnected-(S1-Pad4)">
+      <node ref="S1" pin="4" pintype="passive+no_connect"/>
+    </net>
+    <net code="98" name="unconnected-(S1-Pad5)">
+      <node ref="S1" pin="5" pintype="passive+no_connect"/>
+    </net>
+    <net code="99" name="unconnected-(S1-Pad6)">
+      <node ref="S1" pin="6" pintype="passive+no_connect"/>
+    </net>
+    <net code="100" name="unconnected-(S2-Pad1)">
+      <node ref="S2" pin="1" pintype="passive+no_connect"/>
+    </net>
+    <net code="101" name="unconnected-(S2-Pad2)">
+      <node ref="S2" pin="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="102" name="unconnected-(S2-Pad3)">
+      <node ref="S2" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="103" name="unconnected-(S2-Pad4)">
+      <node ref="S2" pin="4" pintype="passive+no_connect"/>
+    </net>
+    <net code="104" name="unconnected-(S2-Pad5)">
+      <node ref="S2" pin="5" pintype="passive+no_connect"/>
+    </net>
+    <net code="105" name="unconnected-(S2-Pad6)">
+      <node ref="S2" pin="6" pintype="passive+no_connect"/>
+    </net>
+    <net code="106" name="unconnected-(S2-Pad7)">
+      <node ref="S2" pin="7" pintype="passive+no_connect"/>
+    </net>
+    <net code="107" name="unconnected-(S2-Pad8)">
+      <node ref="S2" pin="8" pintype="passive+no_connect"/>
+    </net>
+    <net code="108" name="unconnected-(S3-Pad1)">
+      <node ref="S3" pin="1" pintype="passive+no_connect"/>
+    </net>
+    <net code="109" name="unconnected-(S3-Pad5)">
+      <node ref="S3" pin="5" pintype="passive+no_connect"/>
+    </net>
+    <net code="110" name="unconnected-(S3-Pad6)">
+      <node ref="S3" pin="6" pintype="passive+no_connect"/>
+    </net>
+    <net code="111" name="unconnected-(S3-Pad7)">
+      <node ref="S3" pin="7" pintype="passive+no_connect"/>
+    </net>
+    <net code="112" name="unconnected-(S3-Pad8)">
+      <node ref="S3" pin="8" pintype="passive+no_connect"/>
+    </net>
+    <net code="113" name="unconnected-(S4-Pad1)">
+      <node ref="S4" pin="1" pintype="passive+no_connect"/>
+    </net>
+    <net code="114" name="unconnected-(S4-Pad5)">
+      <node ref="S4" pin="5" pintype="passive+no_connect"/>
+    </net>
+    <net code="115" name="unconnected-(S4-Pad6)">
+      <node ref="S4" pin="6" pintype="passive+no_connect"/>
+    </net>
+    <net code="116" name="unconnected-(S4-Pad7)">
+      <node ref="S4" pin="7" pintype="passive+no_connect"/>
+    </net>
+    <net code="117" name="unconnected-(S4-Pad8)">
+      <node ref="S4" pin="8" pintype="passive+no_connect"/>
+    </net>
+    <net code="118" name="unconnected-(U1-Pad3)">
+      <node ref="U1" pin="3" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="119" name="unconnected-(U1-Pad5)">
+      <node ref="U1" pin="5" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="120" name="unconnected-(U2-Pad3)">
+      <node ref="U2" pin="3" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="121" name="unconnected-(U2-Pad5)">
+      <node ref="U2" pin="5" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="122" name="unconnected-(U3-Pad3)">
+      <node ref="U3" pin="3" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="123" name="unconnected-(U3-Pad5)">
+      <node ref="U3" pin="5" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="124" name="unconnected-(U4-Pad3)">
+      <node ref="U4" pin="3" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="125" name="unconnected-(U4-Pad5)">
+      <node ref="U4" pin="5" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="126" name="unconnected-(U6-Pad24)">
+      <node ref="U6" pin="24" pinfunction="DOUT" pintype="output+no_connect"/>
+    </net>
+    <net code="127" name="unconnected-(U9-Pad9)">
+      <node ref="U9" pin="9" pinfunction="O6" pintype="output+no_connect"/>
+    </net>
+    <net code="128" name="unconnected-(U9-Pad10)">
+      <node ref="U9" pin="10" pinfunction="O5" pintype="output+no_connect"/>
+    </net>
+  </nets>
+</export>
