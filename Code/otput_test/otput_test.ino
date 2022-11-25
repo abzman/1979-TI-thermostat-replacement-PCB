@@ -20,22 +20,8 @@ void setup() {
 
 // the loop routine runs over and over again forever:
 void loop() {
-  digitalWrite(outEnable, HIGH);   // turn the LED on (HIGH is the voltage level)
-  digitalWrite(heatCool, heat);    // turn the LED off by making the voltage LOW
-  delay(1000);               // wait for a second
-  digitalWrite(outEnable, LOW);   // turn the LED on (HIGH is the voltage level)
-  delay(1000);               // wait for a second
-  digitalWrite(outEnable, HIGH);   // turn the LED on (HIGH is the voltage level)
-  digitalWrite(heatCool, cool);    // turn the LED off by making the voltage LOW
-  delay(1000);               // wait for a second
-  digitalWrite(outEnable, LOW);   // turn the LED on (HIGH is the voltage level)
-  delay(1000);               // wait for a second
   digitalWrite(fan, LOW);// fan
-  delay(1000);               // wait for a second
+  delay(30000);               // wait for a second
   digitalWrite(fan, HIGH);//no fan
-  delay(1000);               // wait for a second
-  digitalWrite(hunid, LOW);// humid
-  delay(1000);               // wait for a second
-  digitalWrite(hunid, HIGH);//no humid
-  delay(1000);               // wait for a second
+  delay(30000);               // wait for a second
 }
