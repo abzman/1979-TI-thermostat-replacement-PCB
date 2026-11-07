@@ -153,7 +153,7 @@ Pin names in the report are ESP32 pins, so the corrected K order above is applie
 ### 4.5 Exploration tools (host only)
 | File | Use |
 |---|---|
-| `script_run*.cpp` | Drive the ROM with a key script and print the display. `script_run6` adds `POKE`, `POKE_EVERY`, `TARGET`, `K8T`, `K8POL`, `K8EDGE`, and reports R5 duty |
+| `script_run*.cpp` | Drive the ROM with a key script and print the display. `script_run12` is the latest: env `POKE`, `POKE_EVERY`, `POKE_AFTER`, `OFF_FROM`/`OFF_TO` (pause poke), `IPSMUL` (CPU speed), `K1HZ`, `R5LOG` (log R5), `TARGET`, `K8T`, `K8POL`, `K8EDGE`; reports R5 duty |
 | `poketest.cpp` | Standalone version of the RAM-poke test |
 | `kprobe.cpp` | Histogram of (ROM address, O, R, K) at K reads |
 | `ramdump.cpp`, `ramwatch.cpp` | Dump RAM, list writer addresses per RAM nibble |
@@ -213,13 +213,22 @@ void apply_temperature(tms0970::Core &cpu, int deg_f) {
 }
 ```
 
-What the emulator showed (`script_run6`, K8 either absent or forced high, no A/D model):
+What the emulator showed (`script_run12`, K8 either absent or forced high, no A/D model):
 
 * **Display:** after pressing Temp/Actual, poked values 55, 68, 72 and 85 displayed exactly.
   Without a poke it shows the init value 51.
-* **Refresh rate:** results were identical when refreshed every instruction, every 200 instructions
-  (about 5 ms), 4167 (0.1 s), 41667 (1 s) and 416667 (10 s, but the check came right after a poke).
-  **Refresh at 1 Hz or faster**; every loop is easiest. A slower rate was not shown to be safe.
+* **Refresh rate (CORRECTED 2026-11-06):** the display looked right at any refresh rate, but the
+  *control* output did not. The ROM re-seeds RAM[3][F:E] to 51 at the start of every A/D cycle
+  (init writes at 135/13A), so a slow refresh lets it see 51 and start a spurious call that is then
+  held for the cycle delay (~3-4 min). Over a 2 h run with actual 65 F vs setpoint 60 F (should be idle
+  forever): refresh every 1, 5, 50 and 200 instructions gave zero calls; every 2000 instructions gave
+  31 R5 transitions (46% of the time on call). **Re-write the digits after every `step()`** (two stores).
+* **Typing conflict:** the same two nibbles are the digit-entry buffer (typed digits shift in
+  through RAM[3][F:E]). Writing them every instruction destroys what the user types. So the poke must
+  be paused from the first digit key until the display has been blank again, and that pause can leave
+  a spurious ~3 min call (about half the time in tests) because the ROM re-seeds 51 during the
+  pause. Mitigations to try: make the pause as short as possible (resume as soon as the display blanks),
+  or patch the ROM (6.3 item 1) so the A/D routine never touches those nibbles.
 * **Control response:** with the default setpoint (somewhere between 60 and 75 F) and a 400 s run,
   R5 (the HVAC call) stays idle-high for temperature 95 and goes low after the cycle delay
   (~157 s) for temperature 45 in heat mode. In cool mode (K2 on SD) it is the opposite: low for
@@ -244,7 +253,7 @@ and nothing else depends on the analog measurement *(as far as the tests show)*.
    init writes at 135/13A so the ROM never overwrites the digits. This avoids the refresh
    requirement but modifies the ROM image (keep the original; patch in the tables header).
 2. **Virtual comparator.** Make K8 high when the ROM's own displayed estimate is below a target
-   (inverted polarity, `TARGET` and `K8POL=1` in `script_run6`). It converges for targets about
+   (inverted polarity, `TARGET` and `K8POL=1` in `script_run12`). It converges for targets about
    51-60 F and stalls at 59-60 F above that, so it is only a partial model and not recommended.
 3. **Model the real analog circuit** once the net list (section 2.5) is traced. This is the only way to
    reproduce the original calibration, and it needs the resistor values around U3, the
@@ -257,8 +266,43 @@ reading that tracks a setpoint across cycles. The comparator model came closest.
 
 ---------------------------------------------------------------------------------------------
 
+## 6b. Manual vs. emulated ROM (owner's manual, TI Electronic Digital Thermostat, 1979)
+
+Procedures from pp. 17-29 were run against the ROM with key scripts (`script_run12`, `IPSMUL=1.1`).
+
+| Manual says | Emulated ROM |
+|---|---|
+| p.17 CLOCK shows 12 00; digits 1 0 2 5 show 10 25; AM/PM blanks display and clock runs | Matches. Display goes 12 00 -> 10 25, blanks after AM, CLOCK key later shows the running time |
+| p.17 no AM/PM within ~10 s: previous AM/PM kept, display blanks, clock running | Matches (blank at ~10 s, time kept) |
+| p.18-19 CONSTANT: const key on TEMP row shows 72 (or last), digits set it (70), blanks after ~10 s | Matches **when the key is the first AM key on the TEMP row** (`temp-am1`, SF/K4). The Temp/Actual key (SG/K4) shows the actual temperature instead |
+| p.20-22 NIGHT: first AM and last PM keys on the TIME and TEMP rows; display sequence 0 00 / 6 15 / 00 / 68 / 0 00 / 11 15 / 00 / 60 | Matches step for step. The colon is not modelled in my display path, so 0 00 appears as 000 |
+| p.23-26 DAY/NIGHT: 4 time/temp pairs, left to right | Matches. All eight prompts show 0 00 / 00 and typed values exactly as printed |
+| Schedule changes the setpoint at the entered times (up to 3 min delay) | Matches in a 24 h run (heat, 5:45 AM 70, 8:45 AM 60, 4:25 PM 71, 10:15 PM 62, actual held at 65): solid call 5:48-8:45 AM and 4:21-10:15 PM, idle otherwise. The ~3 min lag after the 5:45 AM change shows up |
+| p.27 checking settings: PM key on TIME row then TEMP row shows the set values; blanks after 10 s | Matches (e.g. last PM TIME shows 11 15, last PM TEMP shows 60, blank after ~10 s) |
+| p.9 ACTUAL key shows current temperature | Matches (shows the A/D/RAM value, 51 until a real reading exists) |
+| p.28 valid temperatures 50-99 | 50 and 99 work (call at <= setpoint in heat, >= in cool). 49, 05 and 00 are rejected and the const key shows 72 again |
+| p.28-29 invalid entry -> controls at 72 | **Does not match.** After an invalid entry the const key shows 72, but with actual poked to 73 R5 stays low (heat call) for the whole run; after a valid entry it stays idle. Needs checking on MAME or hardware |
+| p.29 up to 3 min pause before equipment switches | Matches (call starts ~150-160 s after the condition begins) |
+| p.30 display dead on power failure; battery only keeps time and settings | Display and keys are dead when K1 is missing. **Timekeeping also stops** in emulation, where the manual says the clock keeps time on battery |
+
+### Clock and timing findings that affect the ESP32 build
+* The ROM's clock **counts K1 edges** (a 60 Hz reference). It is exact when K1 is 30-58 Hz in the
+  250 kHz/6 model, and loses 1.7% (6 min in 5 h) at exactly 60 Hz.
+* That loss is a sampling effect: the ROM misses an edge now and then when K1 changes faster than its
+  scan loop samples it. Running the core about 10% faster than my nominal 41.7k instr/s
+  (`IPSMUL=1.1`, about 45.8k instr/s, about 275 kHz equivalent) makes the clock exact over 3 h and puts the
+  display blank delay at about 10 s, which is what the manual says. At the nominal speed the blank
+  delay was about 12 s.
+* **Recommendation:** pace the core at about 46k instr/s with a real-time 60 Hz K1. NTP can then trim
+  the clock by rewriting the time.
+* At 200 Hz K1 the ROM misbehaves (clock jumped to 12:06), so do not drive K1 faster than 60 Hz.
+
+---------------------------------------------------------------------------------------------
+
 ## 7. Open items and risks
 
+0. **Invalid-entry behaviour** and **timekeeping during AC loss** differ from the manual (6b). Check
+   MAME's trace of the same ROM; if MAME agrees, it is how the ROM really behaves.
 1. **Key matrix on hardware.** Run `keymap_probe` and send the report; it fills in the strobe
    address and data pin of each key. Then write the `Board` class.
 2. **`Board : tms0970::Io` class (not written).** Key matrix scan, switch decode, K1 60 Hz
